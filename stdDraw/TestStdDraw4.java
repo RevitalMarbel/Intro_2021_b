@@ -17,7 +17,7 @@ public class TestStdDraw4 {
 		double[] y = new double[n+1];
 		for (int i = 0; i <= n; i++) {
 			x[i] = Math.PI * i / n;
-			y[i] = Math.sin(4*x[i]);
+			y[i] = a*x[i]+b*x[i]+c;
 		}		
 		// rescale the coordinate system
 		StdDraw.setXscale(0, Math.PI);
